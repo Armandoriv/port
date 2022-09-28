@@ -114,10 +114,15 @@
         })
         if (response.ok) {
           this.reset()
-          alert('Gracias por contactarme, te escribire pronto :)')
+          Swal.fire(
+  'Muchas Gracias',
+  'Te contactare lo mas pronto posible :)',
+  'success'
+)
         }
       }
     </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </script>
     <script>
       const form_cta = document.querySelector('.form_cta');
