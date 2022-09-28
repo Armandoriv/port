@@ -31,7 +31,7 @@
           </div>
         </div>
       </nav>
-      <section class="container intro" id="inicio">
+      <header class="container intro" id="inicio">
         <div class="wrapper">
           <div class="static-txt">
             Hola! soy
@@ -43,8 +43,8 @@
             <li><span>Armando Rivera</span></li>
           </ul>
         </div>
-      </section>
-      <section class="container" id="about">
+      </header>
+      <main class="container" id="about">
         <div class="headline">
           <h3 class="letra mb-4" data-aos="fade">Sobre mi</h3>
         </div>
@@ -66,7 +66,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </main>
       <section class="container Contacto" data-aos="fade" id="contacto">
         <div class="headline">
           <h3 class="letras">Contacto</h3>
@@ -114,11 +114,18 @@
         })
         if (response.ok) {
           this.reset()
-          Swal.fire(
-  'Muchas Gracias',
-  'Te contactare lo mas pronto posible :)',
-  'success'
-)
+          Swal.fire({
+          icon: 'success',
+          title: '¡Muchas Gracias!',
+          text: 'Me pondre en contacto contigo lo más pronto posible :)',
+          showConfirmButton: true,
+          confirmButtonColor: "#fc6d6d",
+          background: "#343f4f",
+          color: "#fff"
+
+
+})
+       
         }
       }
     </script>
