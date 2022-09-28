@@ -156,6 +156,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-animation: typing 3s steps(20) infinite;
           animation: typing 3s steps(20) infinite;
   background: #343f4f;
+  margin-top: 10px;
 }
 
 @-webkit-keyframes typing {
