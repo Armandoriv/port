@@ -127,9 +127,9 @@
         <form class="form mt-4" id="form" action="https://formspree.io/f/xknerdkp"
         method="POST">
           <div class="form_container">
-            <input type="text" id="name" for="name" class="form_input" placeholder="Nombre" name="name">
-            <input type="email" id="email" class="form_input" placeholder="Email" name="email">
-            <textarea class="form_input form_input--message" id="message" placeholder="Mensaje" name="message"></textarea>
+            <input type="text" id="name" for="name" class="form_input" placeholder="Nombre" name="name" required>
+            <input type="email" name="email" id="email" class="form_input" placeholder="Email" required>
+            <textarea name="message" class="form_input form_input--message" id="message" placeholder="Mensaje" required></textarea>
           </div>
           <div class="boton mt-4">
             <button type="submit" class="form_cta"><span>Enviar</span></button>
