@@ -39,6 +39,18 @@ nav .li:hover {
   margin-top: 50px;
 }
 
+.bub {
+  background-color: blue;
+}
+
+.bi-download {
+  color: white;
+}
+
+.des {
+  color: white;
+}
+
 .pepo {
   display: flex;
   justify-content: center;
